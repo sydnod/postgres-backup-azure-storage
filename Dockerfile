@@ -1,4 +1,4 @@
-FROM postgres:13
+FROM postgres:14
 WORKDIR /app
 
 ARG SOURCE_TYPE="postgres"
